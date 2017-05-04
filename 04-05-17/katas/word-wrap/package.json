@@ -1,0 +1,9 @@
+{
+  "name": "word-wrap",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}
