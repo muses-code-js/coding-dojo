@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-The Romans were a clev`er bunch. They conquered most of Europe and ruled it for
+The Romans were a clever bunch. They conquered most of Europe and ruled it for
 hundreds of years. They invented concrete and straight roads and even bikinis.
 One thing they never discovered though was the number zero. This made writing
 and dating extensive histories of their exploits slightly more challenging, but
