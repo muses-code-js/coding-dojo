@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-describe('Word Wrap', () => {
+describe('Bowling Game', () => {
 
   it('works', () => {
     const expected = true;
