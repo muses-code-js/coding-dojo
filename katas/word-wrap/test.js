@@ -6,7 +6,7 @@ describe('Word Wrap', () => {
     const expected = true;
     const actual = false;
 
-    assert.equal(expected, actual);
+    assert.equal(actual, expected);
   });
 
 });

@@ -1,5 +1,5 @@
 {
-  "name": "word-wrap",
+  "name": "bowling-game",
   "scripts": {
     "test": "mocha -w"
   },
