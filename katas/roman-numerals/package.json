@@ -1,5 +1,5 @@
 {
-  "name": "word-wrap",
+  "name": "roman-numerals",
   "scripts": {
     "test": "mocha -w"
   },
