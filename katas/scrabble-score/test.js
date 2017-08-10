@@ -1,8 +1,3 @@
-function scrabbleScore(word) {
-  //your solution
-  return 0;
-}
-
 /* Letter value table
 Letter                           Value
 A, E, I, O, U, L, N, R, S, T       1
@@ -15,6 +10,12 @@ Q, Z                               10
 */
 
 const assert = require('assert');
+
+
+function scrabbleScore(word) {
+  //your solution
+  return 0;
+}
 
 
 describe('Scrabble scoring game', () => {
