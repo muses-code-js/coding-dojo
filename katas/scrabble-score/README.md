@@ -13,7 +13,7 @@ K                                  5
 J, X                               8
 Q, Z                               10
 ```
-E.g. Javascipt should return `24`:
+E.g. Javascript should return `24`:
 * 8 points for `j`,
 * 1 point for `a` twice,
 * 4 points for `v`,
