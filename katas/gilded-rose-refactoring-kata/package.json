@@ -1,0 +1,9 @@
+{
+  "name": "gilded-rose-refactoring-kata",
+  "scripts": {
+    "test": "light-server --serve . --watchexp '**/*.js'"
+  },
+  "devDependencies": {
+    "light-server": "^2.2.1"
+  }
+}
