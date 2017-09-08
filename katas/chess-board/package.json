@@ -1,5 +1,5 @@
 {
-  "name": "banking-kata",
+  "name": "chess-game",
   "scripts": {
     "test": "mocha -w"
   },
