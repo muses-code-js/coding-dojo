@@ -17,6 +17,21 @@
   - Follow the prompts in the installer (Accept the license agreement, click the NEXT button and accept the default installation settings).
   ##### For Mac users
   - use homebrew/nvm to install node 
+2. You have to know the basic of JavaScript. 
+  - dofactory: JavaScript reference guide http://www.dofactory.com/tutorial/javascript
+  - JavaScript reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+  
+  If you do need a blueprint of learning JavaScript, This article may provide you a short guide. 
+  https://medium.freecodecamp.org/a-beginners-javascript-study-plan-27f1d698ea5e
+  
+  Do you want to learn by doing? 
+  Here is a free source for you. 
+  https://www.codecademy.com/
+  
+  If you want to practice JavaScript(or along with HTML5/CSS3) briefly without heavy setup, JSFiddle provides a decent place for you. 
+  https://jsfiddle.net/
+   
+  and you can find many more sources from global web!
 
 ### Running the Katas
 1. Clone the github repository 
