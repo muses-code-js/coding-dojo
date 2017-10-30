@@ -1,0 +1,33 @@
+Level 6
+
+The wall behind you feels a bit further away in this room. And you hear more cries for help.
+
+Tip: You can walk backward by passing `'backward'` as an argument to `walk()`. Same goes for `feel()`, `rescue()` and `attack()`. Archers have a limited attack distance.
+
+
+╔════════╗
+║C @ S aa║
+╚════════╝
+
+  > = stairs
+  @ = xena
+  S = thickSludge
+  a = archer
+
+
+Warrior abilities:
+
+  warrior.walk()
+
+  warrior.attack()
+
+  warrior.feel()
+
+  warrior.health()
+
+  warrior.rest()
+
+  warrior.rescue()
+
+
+When you're done editing Player.js, run the warriorjs command again.
