@@ -3,4 +3,4 @@
 * **Where:** [TabCorp](www.tabcorp.com.au)
 * **When:** 25/10/2017
 
-<img src="https://nodegirls-au.slack.com/files/U46PE7W8L/F7NVBMLEL/image_uploaded_from_ios.jpg" width="600px" />
+<img src="https://user-images.githubusercontent.com/2061821/32161689-a628fec2-bdaa-11e7-8929-b5bfe33c2c3e.jpg" width="600px" />
