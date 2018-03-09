@@ -1,0 +1,9 @@
+{
+  "name": "roman-numerals",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
