@@ -1,5 +1,5 @@
 {
-  "name": "fizz-buzz",
+  "name": "ceaser-shift-cipher",
   "version": "1.0.0",
   "scripts": {
     "test": "mocha -w"
