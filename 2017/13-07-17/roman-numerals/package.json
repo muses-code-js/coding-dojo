@@ -1,9 +1,0 @@
-{
-  "name": "roman-numerals",
-  "scripts": {
-    "test": "mocha -w"
-  },
-  "devDependencies": {
-    "mocha": "3.2.0"
-  }
-}
