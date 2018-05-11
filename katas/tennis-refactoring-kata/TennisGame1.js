@@ -1,67 +1,69 @@
-var TennisGame1 = function(player1Name, player2Name) {
-    this.m_score1 = 0;
-    this.m_score2 = 0;
-    this.player1Name = player1Name;
-    this.player2Name = player2Name;
-};
+class TennisGame1 {
+    constructor(player1Name, player2Name) {
+        this.m_score1 = 0;
+        this.m_score2 = 0;
+        this.player1Name = player1Name;
+        this.player2Name = player2Name;
+    }
+    wonPoint(playerName) {
+        if (playerName === "player1")
+            this.m_score1 += 1;
+        else
+            this.m_score2 += 1;
+    }
 
-TennisGame1.prototype.wonPoint = function(playerName) {
-    if (playerName === "player1")
-        this.m_score1 += 1;
-    else
-        this.m_score2 += 1;
-};
+    getScore() {
+        if (this.m_score1 === this.m_score2) {
+            return this.getEqualScore();
+        } 
+        
+        if (this.m_score1 >= 4 || this.m_score2 >= 4) {
+            return this.getWinningScore();
+        } 
 
-TennisGame1.prototype.getScore = function() {
-    var score = "";
-    var tempScore = 0;
-    if (this.m_score1 === this.m_score2) {
+        return this.getNormalScore();
+    
+    }
+    getEqualScore() {
         switch (this.m_score1) {
             case 0:
-                score = "Love-All";
-                break;
+                return "Love-All";
             case 1:
-                score = "Fifteen-All";
-                break;
+                return "Fifteen-All";
             case 2:
-                score = "Thirty-All";
-                break;
+                return "Thirty-All";
             default:
-                score = "Deuce";
-                break;
-        }
-    } else if (this.m_score1 >= 4 || this.m_score2 >= 4) {
-        var minusResult = this.m_score1 - this.m_score2;
-        if (minusResult === 1) score = "Advantage player1";
-        else if (minusResult === -1) score = "Advantage player2";
-        else if (minusResult >= 2) score = "Win for player1";
-        else score = "Win for player2";
-    } else {
-        for (var i = 1; i < 3; i++) {
-            if (i === 1) tempScore = this.m_score1;
-            else {
-                score += "-";
-                tempScore = this.m_score2;
-            }
-            switch (tempScore) {
-                case 0:
-                    score += "Love";
-                    break;
-                case 1:
-                    score += "Fifteen";
-                    break;
-                case 2:
-                    score += "Thirty";
-                    break;
-                case 3:
-                    score += "Forty";
-                    break;
-            }
+                return "Deuce";
         }
     }
-    return score;
+    getWinningScore() {
+        var minusResult = this.m_score1 - this.m_score2;
+        if (minusResult === 1) return "Advantage player1";
+        if (minusResult === -1) return "Advantage player2";
+        if (minusResult >= 2) return "Win for player1";
+        return "Win for player2";
+    }
+    getNormalScore() {
+        var score_map = ["Love", "Fifteen", "Thirty", "Forty"];
+        return `${score_map[this.m_score1]}-${score_map[this.m_score2]}`
+    }
 };
 
 if (typeof window === "undefined") {
     module.exports = TennisGame1;
 }
+
+/*
+function 1 checks if scores of players equal and 
+function 2 
+
+*/
+
+/* function 2 finds the winner (if score > 4 and >2 from opponent)
+*/
+
+/* function 3 returns a score if game not won */
+/* m.score_1 0, m.score_2 1 love-fifteen, love-forty */
+
+
+

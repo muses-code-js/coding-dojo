@@ -9,13 +9,15 @@
   <a href="https://www.meetup.com/en-AU/Node-Girls-Sydney/"><img src="https://img.shields.io/badge/%F0%9D%93%B6%20meetup.com-Node--Girls--Sydney-red.svg"></a>
 </p>
 
-### Tech Requirements 
+> **NB:** If you want to add or edit a kata or want to share the work done during a session, please follow our [Contributing Guidelines](./CONTRIBUTING.md).
+
+## Tech Requirements 
 1. Ensure that you have node installed in your system 
-  ##### For Windows User 
+  #### For Windows User 
   - Download the Windows installer from the Nodes.js® web site.
   - Run the installer.
   - Follow the prompts in the installer (Accept the license agreement, click the NEXT button and accept the default installation settings).
-  ##### For Mac users
+  #### For Mac users
   - use homebrew/nvm to install node 
 2. You have to know the basic of JavaScript. 
   - dofactory: JavaScript reference guide http://www.dofactory.com/tutorial/javascript
@@ -33,7 +35,7 @@
    
   and you can find many more sources from global web!
 
-### Running the Katas
+## Running the Katas
 
 1. Clone the github repository.
 2. run `nvm use` to run with the latest node version.
@@ -42,6 +44,6 @@
 
 Share your work by following the [Contributing Guidelines](./CONTRIBUTING.md)
 
-### Feedback
+## Feedback
 
 For any other feedbacks feel free to email us at `info@nodegirls.com.au`

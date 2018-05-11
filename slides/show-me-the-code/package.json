@@ -1,9 +1,0 @@
-{
-  "name": "show-me-the-code",
-  "scripts": {
-    "test": "mocha -w"
-  },
-  "devDependencies": {
-    "mocha": "3.2.0"
-  }
-}

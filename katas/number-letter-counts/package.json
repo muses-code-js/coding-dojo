@@ -1,9 +1,0 @@
-{
-  "name": "number-letter-counts",
-  "scripts": {
-    "test": "mocha -w"
-  },
-  "devDependencies": {
-    "mocha": "3.2.0"
-  }
-}
