@@ -1,3 +1,3 @@
-function yatzy(){}
+function Yatzy(){}
 
 module.exports = yatzy;

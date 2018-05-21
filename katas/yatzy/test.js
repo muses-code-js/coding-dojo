@@ -1,6 +1,6 @@
 const assert = require('chai').assert
 
-const yatzy = require('./index')
+const Yatzy = require('./index')
 
 describe('Yatzi game', () => {
     it('should be fixed', () => {
