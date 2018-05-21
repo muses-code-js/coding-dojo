@@ -13,6 +13,8 @@ Make sure you have node.js and npm installed. Then in this directory:
     
 # # Yatzy Refactoring Kata
 
+From https://github.com/emilybache/Yatzy-Refactoring-Kata 
+
 This Refactoring Kata was designed by Jon Jagger and is available in his Cyber-Dojo. See [his blog post](http://jonjagger.blogspot.co.uk/2012/05/yahtzee-cyber-dojo-refactoring-in-java.html)
 
 I have changed it a little, so that the rules more closely match the original game.
