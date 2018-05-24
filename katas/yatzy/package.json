@@ -4,12 +4,15 @@
   "description": "This Refactoring Kata was designed by Jon Jagger and is available in his Cyber-Dojo. See [his blog post](http://jonjagger.blogspot.co.uk/2012/05/yahtzee-cyber-dojo-refactoring-in-java.html)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "mocha -w",
+    "test:coverage": "nyc mocha"
   },
   "devDependencies": {
     "mocha": "3.2.0"
   },
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "lodash": "^4.17.10",
+    "nyc": "^11.8.0"
   }
 }
