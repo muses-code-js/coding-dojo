@@ -1,9 +1,16 @@
 {
-  "name": "fizz-buzz",
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz kata",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha -w"
+    "test": "mocha -w --reporter spec"
   },
-  "devDependencies": {
-    "mocha": "3.2.0"
-  }
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {}
 }
