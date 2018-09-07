@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+						<h1>Coding Dojo</h1>
+						<img src="img/kisspng-ninja-computer-programming-learning-study-skills-avatar.png" width="400" />
+						<br />
+						<img src="img/logo.png" width="200" />
+				</section>
+				<section>
+					<h2>What is</h2>
+						<p>A programming session based around a<br />simple coding challenge.</p>
+						<p>It helps to improve hard skills and soft skills</p>
+				</section>
+				<section>
+					<h2>Principles and Rules</h2>
+					<ul>
+						<li>Promote continuous learning in a safe environment</li>
+						<li>There are no silly questions</li>
+						<li>Collaborative approach</li>
+						<li>Be nice :)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Mob Programming</h2>
+					<img src="https://secure.meetupstatic.com/photos/event/9/3/6/a/highres_469477738.jpeg" width="700" />
+				</section>
+				<section>
+					<h1>Tonight</h1>
+					<ul>
+						<li>Group 1. Testing or Refactoring</li>
+						<li>Group 2. API Design with NodeJS and TDD</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h2>Testing or Refactoring</h2>
+						<p>Choose a kata:</p>
+						<ul>
+							<li>Test-driven Development</li>
+							<li>Acceptance Test</li>
+							<li>Refactoring legacy code</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Three Laws of TDD</h2>
+						<ol>
+							<li>You must <b>write a failing test</b> before you write any production code.</li>
+							<li>You must <b>not</b> write more of a test than is sufficient to fail, or fail to compile.</li>
+							<li>You must <b>not</b> write more production code than is sufficient to make the currently failing test pass.</li>
+						</ol>
+					</section>
+					<section>
+						<h2>Red-Green-Refactor</h2>
+						<ol>
+							<li>Create a unit tests that fails.</li>
+							<li>Write production code that makes that test pass.</li>
+							<li>Clean up the mess you just made.</li>
+						</ol>
+						<img src="img/red-green-refactor.jpg" width="400" style="margin-top: 15px" />
+					</section>
+				</section>
+				<section>
+					<h2>API Design with NodeJS and TDD</h2>
+					<ul>
+						<li>Design and build an API in NodeJS with TDD</li>
+						<li>Create a development and production environment with Docker</li>
+						<li>Publish a Dockerized application to AWS</li>
+					</ul>
+				</section>
+				<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+					<h2 style="color: white">Let's start!</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
