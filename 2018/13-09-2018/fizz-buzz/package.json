@@ -1,0 +1,10 @@
+{
+  "name": "fizz-buzz",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
