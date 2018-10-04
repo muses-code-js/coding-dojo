@@ -1,0 +1,16 @@
+{
+  "name": "potter",
+  "version": "1.0.0",
+  "description": "A HP kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch index.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.11",
+    "mocha": "^5.2.0"
+  }
+}
