@@ -24,3 +24,39 @@ This is a Kata which aims at developing a Node API for creating a personal Movie
 
 ## User Story 2
 Coming soon...
+
+### Step 01 - Core
+
+- Set up your project by initiate NPM
+- Install Jest
+- Create your first test without any implementation.
+- Test your code and see if you get back the correct response
+
+```
+input (title, description)
+output
+	movie: {
+		id,
+		title,
+		description
+	}
+	status: 'successfully added movie'
+```
+
+### Step 02 - Core
+
+- Create a mock / fake DB.
+- Use Dependency Injection to integrate the DB into your implementation.
+- Test for duplicated movie
+- Use `jest.spyOn` to test the save and getAll method of your DB
+- Created a index file in the core to export all the controllers
+
+
+### Step 03 - DB
+
+- Create tests for the DB
+- Install Mongo and Mongoose
+- Connect to a DB
+- Create the movie schema
+- Async / Await
+- Add the DB methods (save and getAll)
