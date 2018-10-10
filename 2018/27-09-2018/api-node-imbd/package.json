@@ -1,0 +1,14 @@
+{
+  "name": "api-node-imbd",
+  "version": "1.0.0",
+  "description": "a kata to learn about building an Node API from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "Coding Dojo Team",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
