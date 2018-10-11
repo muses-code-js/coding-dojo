@@ -1,5 +1,5 @@
 {
-  "name": "show-me-the-code",
+  "name": "scrabble-scoring-game",
   "scripts": {
     "test": "mocha -w"
   },
