@@ -1,0 +1,14 @@
+{
+  "name": "berlin-clock-kata",
+  "version": "1.0.0",
+  "description": "## Problem Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.0.4"
+  }
+}
