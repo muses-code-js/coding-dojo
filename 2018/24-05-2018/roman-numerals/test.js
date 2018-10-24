@@ -1,72 +1,104 @@
 const assert = require('assert');
 
-function convertToRoman(digital) {
-    const numbers = {1: "I", 5: "V", 10: "X", 50: "L", 100: "C", 500: "D", 1000: "M"};
-    if (numbers[digital]) {
-        console.log(digital);
-        console.log(numbers[digital]);
-        return numbers[digital];
-    } else {
-        return "II";
-    }
+function romanNumerals(i) {
 
-    // switch (digital){
-    // case 1:return "I";
-    // break;
-    // case 5:return "V";
-    // break;
-    // case 50:return "L";
-    // break;
-    // default: return "X";
-    //}
+ let symbol = {
+ 	1: "I",
+ 	5: "V",
+ 	10:"X",
+ 	50:"L",
+ 	100:"C",
+ 	500:"D",
+ 	1000:"M"
+ };
+
+  let output = i;
+
+  	if (i<=3){
+		console.log(symbol[1].repeat(i))
+		return symbol[1].repeat(i);
+	}
+
+	if (i===4){
+		return symbol[1]+symbol[5];
+	}	
+
+	if (i===5){
+		return symbol[5];
+	}
+
+  	if (i % 10 === 0) {
+  		output = input % 10
+  		return symbol[10];
+  	}
+  	console.log(output)
+
+
+
+
+	// if (i<10){
+	// 	return symbol[5]+symbol[1].repeat(i-5);
+	// }
+	// if (i===10) {
+	// 	return symbol[10]
+	// }
 }
 
+describe('Roman Numerals', function() {
 
-describe('Roman Numerals', () => {
+  it('1 should return I', () => {
+    const expected = 'I';
+    const actual = romanNumerals(1);
 
-    it('works', () => {
-        const expected = true;
-        const actual = true;
+    assert.equal(actual, expected);
+  });
 
-        assert.equal(actual, expected);
-    });
+  it('2 should return II', () => {
+    const expected = 'II';
+    const actual = romanNumerals(2);
 
-    it('Should convert 1 to "I"', () => {
-        const expected = 'I';
-        const actual = convertToRoman(1);
+    assert.equal(actual, expected);
+  });
 
-        assert.equal(actual, expected);
-    });
+ it('3 should return III', () => {
+    const expected = 'III';
+    const actual = romanNumerals(3);
 
-    it('Should convert 2 to "II"', () => {
-        const expected = 'II';
-        const actual = convertToRoman(2);
-        assert.equal(actual, expected);
-    });
+    assert.equal(actual, expected);
+  });
 
-    it('Should convert 5 to "V"', () => {
-        const expected = 'V';
-        const actual = convertToRoman(5);
+ it('4 should return IV', () => {
+    const expected = 'IV';
+    const actual = romanNumerals(4);
 
-        assert.equal(actual, expected);
-    });
+    assert.equal(actual, expected);
+  });
+  it('5 should return V', () => {
+    const expected = 'V';
+    const actual = romanNumerals(5);
 
-    it('Should convert 10 to "X"', () => {
-        assert.equal(convertToRoman(10), 'X');
-    });
+    assert.equal(actual, expected);
+  });
+  it('6 should return VI', () => {
+    const expected = 'VI';
+    const actual = romanNumerals(6);
 
-    it('Should convert 50 to "L"', () => {
-        assert.equal(convertToRoman(50), 'L');
-    });
-    it('Should convert 100 to "C"', () => {
-        assert.equal(convertToRoman(100), 'C');
-    });
-    it('Should convert 500 to "D"', () => {
-        assert.equal(convertToRoman(500), 'D');
-    });
-    it('Should convert 1000 to "M"', () => {
-        assert.equal(convertToRoman(1000), 'M');
-    });
+    assert.equal(actual, expected);
+  });  
+
+  it('10 should return X', () => {
+    const expected = 'X';
+    const actual = romanNumerals(10);
+
+    assert.equal(actual, expected);
+   });
+
+  it('11 should return XI', () => {
+    const expected = 'XI';
+    const actual = romanNumerals(11);
+
+    assert.equal(actual, expected);
+   });
+
+
 });
-
-
