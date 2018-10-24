@@ -1,12 +1,12 @@
 # Coding Dojo
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/node-girls-australia/coding-dojo/master/logo.png" width="500">
+  <img src="logo_muses_color.png" width="200">
 </p>
 
 <p align="center">
-  <a href="http://nodegirls-au.slack.com/messages/sydney-dojo-sessions/"><img src="https://img.shields.io/badge/slack.com-nodegirls--au-green.svg"></a>
-  <a href="https://www.meetup.com/en-AU/Node-Girls-Sydney/"><img src="https://img.shields.io/badge/%F0%9D%93%B6%20meetup.com-Node--Girls--Sydney-red.svg"></a>
+  <a href="http://muses-code-js.slack.com/messages/sydney-dojo-sessions/"><img src="https://img.shields.io/badge/slack-MusesCodeJS-green.svg"></a>
+  <a href="https://www.meetup.com/MusesCodeJS/"><img src="https://img.shields.io/badge/%F0%9D%93%B6%20meetup.com-MusesCodeJS-green.svg"></a>
 </p>
 
 ### Tech Requirements
@@ -44,4 +44,4 @@ Share your work by following the [Contributing Guidelines](./CONTRIBUTING.md)
 
 ### Feedback
 
-For any other feedbacks feel free to email us at `info@nodegirls.com.au`
+For any other feedbacks feel free to email us at `info@musescodejs.org`
