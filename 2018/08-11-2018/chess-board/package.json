@@ -1,0 +1,9 @@
+{
+  "name": "chess-game",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "devDependencies": {
+    "mocha": "3.5.0"
+  }
+}
