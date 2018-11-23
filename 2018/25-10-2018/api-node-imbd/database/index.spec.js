@@ -2,7 +2,7 @@ const database = require('./index')
 const mongoose = require('mongoose');
 
 describe('Database', () => {
-	beforeAll(async () => await mongoose.connection.collections['movies'].drop());
+	beforeAll((done) => mongoose.connection.collections['movies'].drop(() => done()));
 
 	it('Saves a movie', async () => {
 		const movie = {

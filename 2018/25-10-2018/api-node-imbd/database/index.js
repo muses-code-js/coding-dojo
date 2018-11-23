@@ -1,5 +1,10 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test', { useNewUrlParser: true });
+
+const db = process.env.ENV || 'PROD';
+const hostName = process.env.ENV === 'DOCKER' ? 'mongo' : 'localhost';
+const databaseUrl = `mongodb://${hostName}:27017/movieDatabase-${db}`;
+
+mongoose.connect(databaseUrl, { useNewUrlParser: true });
 
 var movieDatabaseSchema = mongoose.model('Movie', new mongoose.Schema({
 	title: String,

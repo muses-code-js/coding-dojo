@@ -4,8 +4,12 @@
   "description": "a kata to learn about building an Node API from scratch",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
-    "start": "node ./app.js"
+    "test": "ENV=TEST jest",
+    "test:docker": "ENV=DOCKER jest",
+    "start": "ENV=PRODUCTION node ./app.js",
+    "docker-test": "npm install && npm run test:docker",
+    "docker-build": "docker build -t imdb-movies .",
+    "docker-run" : "docker run imdb-movies npm run docker-test"
   },
   "author": "Coding Dojo Team",
   "license": "ISC",
