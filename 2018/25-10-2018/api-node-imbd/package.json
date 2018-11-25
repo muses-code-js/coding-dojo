@@ -9,7 +9,8 @@
     "start": "ENV=PRODUCTION node ./app.js",
     "docker-test": "npm install && npm run test:docker",
     "docker-build": "docker build -t imdb-movies .",
-    "docker-run" : "docker run imdb-movies npm run docker-test"
+    "docker-run" : "docker run imdb-movies npm run docker-test",
+    "docker-agent": "docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILDKITE_AGENT_TOKEN=\"<agent token>\" buildkite/agent"
   },
   "author": "Coding Dojo Team",
   "license": "ISC",
