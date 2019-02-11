@@ -34,11 +34,3 @@ As an organiser, you'll have to share the work done during a session with all of
 3. Clean the `katas/` folder. Only keep the katas you've done during the session and delete the others
 3. Create a release tag with the same name as your branch.
 4. Share it with the attendants.
-
-### Branch naming convention
-The branch name has to contain your chapter's name and the coding-dojo date like so: `melbourne/28-03-2018`. If your coding dojo session has more than one group, suffix the name with a letter from A to Z :
-```
-melbourne/28-03-2018_A
-melbourne/28-03-2018_B
-...
-```
