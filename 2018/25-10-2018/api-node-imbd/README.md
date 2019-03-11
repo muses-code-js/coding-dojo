@@ -60,3 +60,12 @@ output
 - Create the movie schema
 - Async / Await
 - Add the DB methods (save and getAll)
+
+
+### Running on Buildkite
+
+- set up Buildkite and Github as per Buildkite instructions
+- the only step required in the Pipeline is to **read steps from repository** (buildkite-agent pipeline upload)
+- edit **buildkite-agent.cfg** by adding your buildkite agent token value from buildkite
+- run the buildkite agent with **npm run docker-agent**
+- if set up correctly the pipeline will run automatically using the docker files
