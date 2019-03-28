@@ -1,0 +1,14 @@
+{
+  "name": "moviedb",
+  "version": "1.0.0",
+  "description": "This is a Kata which aims at developing a Node API for creating a personal Movie Database using Test Driven Development[TDD] approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w"
+  },
+  "author": "musesjs",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
