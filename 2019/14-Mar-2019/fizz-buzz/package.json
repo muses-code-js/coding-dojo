@@ -1,0 +1,9 @@
+{
+  "name": "fizz-buzz",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
