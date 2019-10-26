@@ -11,11 +11,11 @@
 
 ### Tech Requirements
 1. Ensure that you have node installed in your system
-  ##### For Windows User
-  - Download the Windows installer from the Nodes.js® web site.
+  ##### For Windows Users
+  - Download the Windows installer from the Node.js® web site.
   - Run the installer.
   - Follow the prompts in the installer (Accept the license agreement, click the NEXT button and accept the default installation settings).
-  ##### For Mac users
+  ##### For Mac Users
   - use homebrew/nvm to install node
 2. You have to know the basic of JavaScript.
   - dofactory: JavaScript reference guide http://www.dofactory.com/tutorial/javascript
