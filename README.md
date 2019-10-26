@@ -17,6 +17,7 @@
   - Follow the prompts in the installer (Accept the license agreement, click the NEXT button and accept the default installation settings).
   ##### For Mac users
   - use homebrew/nvm to install node
+  - to install homebrew/nvm take a look in [this guide](./DEPENDENCIES.md)
 2. You have to know the basic of JavaScript.
   - dofactory: JavaScript reference guide http://www.dofactory.com/tutorial/javascript
   - JavaScript reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
